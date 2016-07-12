@@ -10,3 +10,6 @@ use Mix.Config
 # or recreate for your teammates (or you later on).
 config :phoenix_phaser, PhoenixPhaser.Endpoint,
   secret_key_base: System.get_env("SECRET_KEY_BASE")# "7yKKn1RLxQtdpRD2tLqQnYw/U0jwRehNM6+j+zEARxxUsoPsBMF2MMSDwBHjRm79"
+
+#$ heroku config:set SECRET_KEY_BASE=[long.string.of.chars]
+#$ heroku config:set SOME_VAR=[the.value]
